@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Springboard</title>
+	<link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+			background-image: url('vaporwave.gif');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .content {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header, nav, main, footer {
+            margin: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            font-size: 24px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav ul li a:hover {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1>Springboard</h1>
+			<hr style="width: 200px; background-color: black; margin: 10px auto;">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="https://192.168.0.75:8006/#v1:0:=qemu%2F101:4:=jsconsole::::7::" target="_blank">Proxmox</a></li>
+                <li><a href="http://192.168.0.231/ui/dashboard" target="_blank">TrueNAS</a></li>
+                <li><a href="http://192.168.0.10/admin/" target="_blank">Pi-Hole</a></li>
+                <li><a href="https://app.plex.tv/desktop/#!/media/4b06f3598ac1311b8024d3107ad600aab494eacd/com.plexapp.plugins.library?key=%2Fhubs&pageType=hub" target="_blank">Plex</a></li>
+            </ul>
+        </nav>
+		<nav>
+			<ul>
+				<li><a href="http://192.168.0.20:4409/" target="_blank">Wombot</a></li>
+				<li><a href="http://192.168.0.34:4409/" target="_blank">Ender 5 Plus</a></li>
+				<li><a href="http://192.168.0.81:4409/" target="_blank">Creality K1</a></li>
+			</ul>
+		</nav>
+        <footer>
+            <p>&copy; 2024 internal.springboard.local. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

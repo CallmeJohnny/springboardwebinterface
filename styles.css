@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('path/to/helvetica-neue.woff2') format('woff2'),  /* Modern Browsers */
+         url('path/to/helvetica-neue.woff') format('woff');    /* Older Browsers */
+    /* Add more src lines for different font file formats if necessary */
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Fallback to Arial if Helvetica Neue is not available */
+    /* Other body styles */
+}
+
+/* Apply the font to specific elements if needed */
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+header {
+    margin: 100px 0 20px; /* Adjusted margin-top to move the header up by 50 pixels */
+}
